@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added box-sizing for better layout */
+}
+.Box{
+    background-image: url("Background Picture.png");
+    background-size: cover; /* Changed background-size for better scaling */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensuring Box covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Inner_Box{
+    width: 80%; /* Adjusted width for better responsiveness */
+    max-width: 800px; /* Added max-width to limit width on larger screens */
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 15px 20px rgba(0,0,0,.2);
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 25px;
+}
+.Inner_Box h1{
+    font-size: 23.4px;
+}
+.Inner_Box p {
+    font-size: 16px; /* Adjusted font size for better readability */
+}
